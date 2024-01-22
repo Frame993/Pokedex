@@ -8,6 +8,7 @@ for (let i = 1; i <= 151; i++) {
         .then((data) => mostrarPokemon(data))
 }
 
+
 function mostrarPokemon(poke) {
 
     let tipos = poke.types.map((type) => `<p class="${type.type.name} tipo">${type.type.name}</p>`);
@@ -43,7 +44,9 @@ function mostrarPokemon(poke) {
     </div>
     `;
     listaPokemon.appendChild(div);
+
 }
+
 
 // Para selecionar especificamente el botón que se ha pulsado se puede hacer de la siguiente manera
 
