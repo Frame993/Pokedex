@@ -43,10 +43,10 @@ function mostrarPokemon(poke) {
         </div>
     </div>
     `;
+    div.style.backgroundColor = `var(--type-${poke.types[0].type.name})`
+    div.style.backdropFilter = `blur(10px) opacity(90%) !important`;
     listaPokemon.appendChild(div);
-
 }
-
 
 // Para selecionar especificamente el botón que se ha pulsado se puede hacer de la siguiente manera
 

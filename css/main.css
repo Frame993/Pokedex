@@ -193,7 +193,7 @@ main {
     font-size: .75rem;
     font-weight: 500;
     flex-wrap: wrap;
-    justify-content: center;   
+    justify-content: center;  
 }
 
 .tipo {
@@ -222,89 +222,108 @@ main {
 .normal {
     background-color: var(--type-normal);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .fire {
     background-color: var(--type-fire);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .water {
     background-color: var(--type-water);
     color: var(--clr-white);
+    border: 1px solid var(--clr-black);
 }
 
 .grass {
     background-color: var(--type-grass);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .electric {
     background-color: var(--type-electric);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .ice {
     background-color: var(--type-ice);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .fighting {
     background-color: var(--type-fighting);
     color: var(--clr-white);
+    border: 1px solid var(--clr-black);
 }
 
 .poison {
     background-color: var(--type-poison);
     color: var(--clr-white);
+    border: 1px solid var(--clr-black);
 }
 
 .ground {
     background-color: var(--type-ground);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .flying {
     background-color: var(--type-flying);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .psychic {
     background-color: var(--type-psychic);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .bug {
     background-color: var(--type-bug);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .rock {
     background-color: var(--type-rock);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .ghost {
     background-color: var(--type-ghost);
     color: var(--clr-white);
+    border: 1px solid var(--clr-black);
 }
 
 .dark {
     background-color: var(--type-dark);
     color: var(--clr-white);
+    border: 1px solid var(--clr-black);
 }
 
 .dragon {
     background-color: var(--type-dragon);
     color: var(--clr-white);
+    border: 1px solid var(--clr-black);
 }
 
 .steel {
     background-color: var(--type-steel);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
 }
 
 .fairy {
     background-color: var(--type-fairy);
     color: var(--clr-black);
+    border: 1px solid var(--clr-black);
+   
 }
